@@ -1,0 +1,876 @@
+Array
+(
+    [2331] => Array
+        (
+            [id] => 2331
+            [name] => Foothills
+            [description] => You find yourself standing at the base of an enormous mountain.  At its base to the north, there is a massive doorway.  A sign nearby reads "Keep out!  Definitely no treasure within!"
+            [exits] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 5057
+                            [name] => doorway
+                            [dest] => 2341
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 5065
+                            [name] => south
+                            [dest] => 2336
+                        )
+
+                )
+
+        )
+
+    [2341] => Array
+        (
+            [id] => 2341
+            [name] => Dark cave
+            [description] => This seems to be the mouth of a deep cave.  As you peer north into the darkness, you think you hear the echoes of bats deeper within.
+            [exits] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 5306
+                            [name] => north
+                            [dest] => 2346
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 5312
+                            [name] => south
+                            [dest] => 2331
+                        )
+
+                )
+
+        )
+
+    [2346] => Array
+        (
+            [id] => 2346
+            [name] => Dark cave
+            [description] => The cave is somewhat narrow here, and the light from the doorway to the south is quite dim.
+            [exits] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 5420
+                            [name] => north
+                            [dest] => 2351
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 5426
+                            [name] => south
+                            [dest] => 2341
+                        )
+
+                )
+
+        )
+
+    [2351] => Array
+        (
+            [id] => 2351
+            [name] => Dark cave
+            [description] => The cave acoustics dramatically change as you find yourself at a legde above a large chasm.  There is barely enough light here to notice a rope bridge leading out into the dark emptiness.
+            [exits] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 5630
+                            [name] => bridge
+                            [dest] => 2356
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 5637
+                            [name] => south
+                            [dest] => 2341
+                        )
+
+                )
+
+        )
+
+    [2356] => Array
+        (
+            [id] => 2356
+            [name] => Rope bridge
+            [description] => This rope bridge creaks as you walk along it.  You aren't sure how old it is, or whether it can even support your weight.
+            [exits] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 5777
+                            [name] => continue
+                            [dest] => 2361
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 5786
+                            [name] => back
+                            [dest] => 2351
+                        )
+
+                )
+
+        )
+
+    [2361] => Array
+        (
+            [id] => 2361
+            [name] => Falling through the air!
+            [description] => As you continue along the bridge, it snaps!  You try to grab the bridge, but it evades your grasp in the darkness.  You are plummeting quickly downward into the chasm...
+            [exits] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 5986
+                            [name] => down
+                            [dest] => 2366
+                        )
+
+                )
+
+        )
+
+    [2366] => Array
+        (
+            [id] => 2366
+            [name] => Moss cavern
+            [description] => You are standing in a large cavern full of bioluminescent moss.  It must have broken your fall!  The cavern extends to the east and west; at the west end, you think you see a passage leading out of the cavern.
+            [exits] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 6213
+                            [name] => west
+                            [dest] => 2376
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 6218
+                            [name] => east
+                            [dest] => 2371
+                        )
+
+                )
+
+        )
+
+    [2376] => Array
+        (
+            [id] => 2376
+            [name] => Moss cavern
+            [description] => You are standing in a large cavern full of bioluminescent moss.  The cavern extends to the east.  There is a crevise in the rocks which opens into a passage.
+            [exits] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 6507
+                            [name] => east
+                            [dest] => 2366
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 6512
+                            [name] => passage
+                            [dest] => 2381
+                        )
+
+                )
+
+        )
+
+    [2381] => Array
+        (
+            [id] => 2381
+            [name] => Passage
+            [description] => You are in a crevise on the west wall of the moss cavern.  A dark passage leads further west.  There is a ladder here which leads down into a smaller, moss-filled cavern below.
+            [exits] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 6705
+                            [name] => cavern
+                            [dest] => 2376
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 6712
+                            [name] => ladder
+                            [dest] => 2391
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 6719
+                            [name] => darkness
+                            [dest] => 2386
+                        )
+
+                )
+
+        )
+
+    [2391] => Array
+        (
+            [id] => 2391
+            [name] => Twisty passages
+            [description] => You are in a maze of twisty little passages, all dimly lit by more bioluminescent moss.  There is a ladder here leading up.
+            [exits] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 7023
+                            [name] => ladder
+                            [dest] => 2381
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 7030
+                            [name] => north
+                            [dest] => 2396
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 7036
+                            [name] => south
+                            [dest] => 2401
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 7042
+                            [name] => east
+                            [dest] => 2406
+                        )
+
+                    [4] => Array
+                        (
+                            [id] => 7047
+                            [name] => west
+                            [dest] => 2411
+                        )
+
+                )
+
+        )
+
+    [2396] => Array
+        (
+            [id] => 2396
+            [name] => Twisty passages
+            [description] => You are in a twisty maze of little passages, all alike.
+            [exits] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 7124
+                            [name] => north
+                            [dest] => 2401
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 7130
+                            [name] => south
+                            [dest] => 2391
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 7136
+                            [name] => west
+                            [dest] => 2396
+                        )
+
+                )
+
+        )
+
+    [2401] => Array
+        (
+            [id] => 2401
+            [name] => Twisty passages
+            [description] => You are in a maze of little twisty passages, all alike.
+            [exits] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 7213
+                            [name] => north
+                            [dest] => 2391
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 7219
+                            [name] => south
+                            [dest] => 2396
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 7225
+                            [name] => east
+                            [dest] => 2401
+                        )
+
+                )
+
+        )
+
+    [2406] => Array
+        (
+            [id] => 2406
+            [name] => Twisty passages
+            [description] => You are in a maze of alike little passages, all twisty.
+
+The passage to the east looks very dark; you think you hear a Grue.
+            [exits] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 7371
+                            [name] => north
+                            [dest] => 2421
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 7377
+                            [name] => south
+                            [dest] => 2406
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 7383
+                            [name] => west
+                            [dest] => 2391
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 7388
+                            [name] => east
+                            [dest] => 2436
+                        )
+
+                )
+
+        )
+
+    [2421] => Array
+        (
+            [id] => 2421
+            [name] => Twisty passages
+            [description] => You are in a maze of alike twisty passages, all little.
+            [exits] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 7724
+                            [name] => north
+                            [dest] => 2401
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 7730
+                            [name] => east
+                            [dest] => 2396
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 7735
+                            [name] => south
+                            [dest] => 2421
+                        )
+
+                )
+
+        )
+
+    [2436] => Array
+        (
+            [id] => 2436
+            [name] => Twisty passages
+            [description] => You are in a twisty maze of little passages, all alike.
+            [exits] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 7967
+                            [name] => north
+                            [dest] => 2396
+                        )
+
+                )
+
+        )
+
+    [2411] => Array
+        (
+            [id] => 2411
+            [name] => Twisty passages
+            [description] => You are in a little maze of twisty passages, all alike.
+            [exits] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 7465
+                            [name] => north
+                            [dest] => 2411
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 7471
+                            [name] => south
+                            [dest] => 2416
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 7477
+                            [name] => east
+                            [dest] => 2391
+                        )
+
+                )
+
+        )
+
+    [2416] => Array
+        (
+            [id] => 2416
+            [name] => Twisty passages
+            [description] => You are in a twisty alike of little passages, all maze.
+
+The east passage appears very dark; you feel likely to be eaten by a Grue.
+            [exits] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 7630
+                            [name] => north
+                            [dest] => 2426
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 7636
+                            [name] => south
+                            [dest] => 2396
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 7642
+                            [name] => west
+                            [dest] => 2401
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 7647
+                            [name] => east
+                            [dest] => 2436
+                        )
+
+                )
+
+        )
+
+    [2426] => Array
+        (
+            [id] => 2426
+            [name] => Twisty passages
+            [description] => You are in a maze of twisty little passages, all alike.
+            [exits] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 7813
+                            [name] => west
+                            [dest] => 2391
+                        )
+
+                )
+
+        )
+
+    [2386] => Array
+        (
+            [id] => 2386
+            [name] => Passage
+            [description] => P‰
+            [exits] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 6869
+                            [name] => continue
+                            [dest] => 2441
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 6878
+                            [name] => back
+                            [dest] => 2381
+                        )
+
+                )
+
+        )
+
+    [2441] => Array
+        (
+            [id] => 2441
+            [name] => Dark passage
+            [description] => You are in a narrow passage.  There is darkness to the west, but you can barely see a glowing opening to the east.
+            [exits] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 8101
+                            [name] => west
+                            [dest] => 2446
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 8106
+                            [name] => east
+                            [dest] => 2386
+                        )
+
+                )
+
+        )
+
+    [2446] => Array
+        (
+            [id] => 2446
+            [name] => Dark passage
+            [description] => You are in a dark, narrow passage.
+            [exits] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 8159
+                            [name] => east
+                            [dest] => 2441
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 8164
+                            [name] => west
+                            [dest] => 2451
+                        )
+
+                )
+
+        )
+
+    [2451] => Array
+        (
+            [id] => 2451
+            [name] => Dark passage
+            [description] => You are in a dark, narrow passage.
+            [exits] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 8217
+                            [name] => east
+                            [dest] => 2446
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 8222
+                            [name] => west
+                            [dest] => 2456
+                        )
+
+                )
+
+        )
+
+    [2456] => Array
+        (
+            [id] => 2456
+            [name] => Dark passage
+            [description] => You are in a dark, narrow passage.  To the west, you spot some vegetation where the passage expands.
+            [exits] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 8341
+                            [name] => east
+                            [dest] => 2451
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 8346
+                            [name] => west
+                            [dest] => 2461
+                        )
+
+                )
+
+        )
+
+    [2461] => Array
+        (
+            [id] => 2461
+            [name] => Ruins
+            [description] => You stand in a large cavern with a huge ruin to the north, overgrown by plant life.  There is a large stone archway to the north acting as the doorway to the ruined complex.
+            [exits] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 8531
+                            [name] => east
+                            [dest] => 2456
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 8536
+                            [name] => north
+                            [dest] => 2466
+                        )
+
+                )
+
+        )
+
+    [2466] => Array
+        (
+            [id] => 2466
+            [name] => Ruins
+            [description] => You are in the once-opulent foyer of a massive ruined complex.  There is a door to the south leading to the overgrowth outside and stairs to the north which lead into a larger hall.
+            [exits] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 8730
+                            [name] => north
+                            [dest] => 2471
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 8736
+                            [name] => south
+                            [dest] => 2461
+                        )
+
+                )
+
+        )
+
+    [2471] => Array
+        (
+            [id] => 2471
+            [name] => Ruins
+            [description] => You stand in the massive central hall of these ruins.  The walls are crumbling, and vegetation has clearly taken over.  Rooms are attached in all directions.  There is a strange monument in the center of the hall with circular slots and unusual symbols.  It reads:
+
+_ + _ * _^2 + _^3 - _ = 399
+            [exits] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 9042
+                            [name] => north
+                            [dest] => 2477
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 9048
+                            [name] => south
+                            [dest] => 2466
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 9054
+                            [name] => east
+                            [dest] => 2482
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 9059
+                            [name] => west
+                            [dest] => 2492
+                        )
+
+                )
+
+        )
+
+    [2477] => Array
+        (
+            [id] => 2477
+            [name] => Ruins
+            [description] => Because it has been so well-protected, this room hardly shows signs of decay.  The walls are covered in elaborate murals and decorated with precious metals and stones.
+            [exits] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 9238
+                            [name] => south
+                            [dest] => 2471
+                        )
+
+                )
+
+        )
+
+    [2482] => Array
+        (
+            [id] => 2482
+            [name] => Ruins
+            [description] => You stand in what seems to have once been a dining hall; broken tables and pottery are scattered everywhere.  A staircase here leads down.
+            [exits] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 9389
+                            [name] => down
+                            [dest] => 2487
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 9394
+                            [name] => west
+                            [dest] => 2471
+                        )
+
+                )
+
+        )
+
+    [2487] => Array
+        (
+            [id] => 2487
+            [name] => Ruins
+            [description] => This seems to be a kitchen; there are brick stoves and shelves along the wall.  Everything here has fallen into disrepair.
+            [exits] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 9528
+                            [name] => up
+                            [dest] => 2482
+                        )
+
+                )
+
+        )
+
+    [2492] => Array
+        (
+            [id] => 2492
+            [name] => Ruins
+            [description] => You find yourself in what was once the living quarters for the complex.  Many smaller rooms which once had walls to divide them now lay in disarray.  There is a staircase up here.
+            [exits] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 9717
+                            [name] => up
+                            [dest] => 2497
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 9720
+                            [name] => east
+                            [dest] => 2471
+                        )
+
+                )
+
+        )
+
+    [2497] => Array
+        (
+            [id] => 2497
+            [name] => Ruins
+            [description] => This was long ago a lavish throne room.  Dried-up fountains and crumbling statues line the walls, and the carved stone throne in the center of the room is falling apart.
+            [exits] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 9901
+                            [name] => down
+                            [dest] => 2492
+                        )
+
+                )
+
+        )
+
+    [2371] => Array
+        (
+            [id] => 2371
+            [name] => Moss cavern
+            [description] => You are standing in a large cavern full of bioluminescent moss.  The cavern extends to the west.
+            [exits] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 6332
+                            [name] => west
+                            [dest] => 2366
+                        )
+
+                )
+
+        )
+
+    [2336] => Array
+        (
+            [id] => 2336
+            [name] => Foothills
+            [description] => As you begin to leave, you feel the urge for adventure pulling you back...
+            [exits] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 5156
+                            [name] => north
+                            [dest] => 2331
+                        )
+
+                )
+
+        )
+
+)

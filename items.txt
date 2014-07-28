@@ -1,0 +1,77 @@
+Array
+(
+    [id] => 2522
+    [name] => tablet
+    [desc] => The tablet seems appropriate for use as a writing surface but is unfortunately blank.  Perhaps you should USE it as a writing surface...
+    [room] => 2331
+)
+Array
+(
+    [id] => 2526
+    [name] => empty lantern
+    [desc] => The lantern seems to have quite a bit of wear but appears otherwise functional.  It is, however, sad that it is out of oil.
+    [room] => 2371
+)
+Array
+(
+    [id] => 2530
+    [name] => lantern
+    [desc] => The lantern seems to have quite a bit of wear but appears otherwise functional.  It is off but happily full of oil.
+    [room] => 32767
+)
+Array
+(
+    [id] => 2534
+    [name] => lit lantern
+    [desc] => The lantern seems to have quite a bit of wear.  It is lit and producing a bright light.
+    [room] => 32767
+)
+Array
+(
+    [id] => 2538
+    [name] => can
+    [desc] => This can is full of high-quality lantern oil.
+    [room] => 2431
+)
+Array
+(
+    [id] => 2542
+    [name] => red coin
+    [desc] => This coin is made of a red metal.  It has two dots on one side.
+    [room] => 2466
+)
+Array
+(
+    [id] => 2546
+    [name] => corroded coin
+    [desc] => This coin is somewhat corroded.  It has a triangle on one side.
+    [room] => 2487
+)
+Array
+(
+    [id] => 2550
+    [name] => shiny coin
+    [desc] => This coin is somehow still quite shiny.  It has a pentagon on one side.
+    [room] => 2497
+)
+Array
+(
+    [id] => 2554
+    [name] => concave coin
+    [desc] => This coin is slightly rounded, almost like a tiny bowl.  It has seven dots on one side.
+    [room] => 2482
+)
+Array
+(
+    [id] => 2558
+    [name] => blue coin
+    [desc] => This coin is made of a blue metal.  It has nine dots on one side.
+    [room] => 2492
+)
+Array
+(
+    [id] => 2562
+    [name] => teleporter
+    [desc] => This small device has a button on it and reads "teleporter" on the side.
+    [room] => 2477
+)
