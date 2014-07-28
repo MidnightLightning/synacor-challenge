@@ -1,0 +1,54 @@
+<html>
+<head>
+	<title>Javascript Engine</title>
+	<style>
+		p { margin:0 0 1em 0; }
+		label { display:inline-block; margin-left:1em; }
+		#memory { height:350px; overflow-y:scroll; overflow-x:hidden; margin-bottom:1em; font-family:monospace; font-size:14px; }
+		#memory .rowhead { display:inline-block; width:50px; text-align:right; padding-right:5px; font-weight:bold; }
+		#memory .hex { font-family: monospace; display:inline-block; border:solid 1px #FFF; padding:0 2px; line-height:1em; margin:0 1px; }
+		#memory .hex.breakpoint { background-color:#FFC; border:solid 1px #930; }
+		#memory .hex.dirty { background-color:#CFC; }
+		#memory .hex.active { background-color:#FC9; }
+		
+		#registers, #stack, #output, #console { float:left; margin-right:20px; }
+		#registers .hex, #stack .hex { font-family:monospace; color:#930; }
+		#output, #console { font-size:14px; height:300px; overflow-y:scroll; overflow-x:hidden; }
+		#output { width:500px; background-color:#000; color:#0F0; font-family:monospace; padding:10px; white-space:pre-wrap; }
+		#console { width:500px; font-size:12px; }
+		#stack p { margin:0; }
+		#console p { text-indent:-2em; margin:0 0 0 2em; }
+		#console .cursor-position { font-family:monospace; }
+		#console .command { font-family:monospace; font-weight:bold; }
+		#console .hex, #console .binary { font-family:monospace; }
+		#console .hex { color:#930; }
+		#console .binary { color:#009; }
+	</style>
+</head>
+<body>
+<div id="memory"></div>
+<div id="controls">
+<button id="step">Step</button><button id="run">Run</button><label>Console log? <select name="logging" id="logging"><option value="1">On</option><option value="0">Off</option></select></label><label>Text input:<input type="text" id="text_input" /></label><button id="text_submit">Enter</button>
+</div>
+</div>
+<div id="registers">
+	<table class="form">
+		<tr><th colspan="2">Registers:</th></tr>
+		<tr><th>0:</th><td id="r0">&nbsp;</td></tr>
+		<tr><th>1:</th><td id="r1">&nbsp;</td></tr>
+		<tr><th>2:</th><td id="r2">&nbsp;</td></tr>
+		<tr><th>3:</th><td id="r3">&nbsp;</td></tr>
+		<tr><th>4:</th><td id="r4">&nbsp;</td></tr>
+		<tr><th>5:</th><td id="r5">&nbsp;</td></tr>
+		<tr><th>6:</th><td id="r6">&nbsp;</td></tr>
+		<tr><th>7:</th><td id="r7">&nbsp;</td></tr>
+	</table>
+</div>
+<div id="stack">
+</div>
+<div id="output"><div class="content"></div></div>
+<div id="console"><div class="content"></div></div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="engine.js"></script>
+</body>
+</html>
